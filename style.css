@@ -23,6 +23,20 @@ body {
     position: relative;
 }
 
+#siteLogo {
+    display: block;
+    margin: 40px auto 20px;
+    text-align: center;
+}
+
+#siteLogo img {
+    max-width: 260px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 #profilePicture, #profilePicture img {
     position: relative;
     width: 96px;
