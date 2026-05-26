@@ -58,6 +58,19 @@ body {
     margin: 27px auto;
 }
 
+.links-section-title {
+    color: var(--accentColor);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin: 22px 10px 12px;
+    text-align: center;
+}
+
+#links .links-section-title:not(:first-child) {
+    margin-top: 34px;
+}
+
 .link {
     position: relative;
     background-color: transparent;
@@ -86,6 +99,13 @@ body {
 .link:active {
     background-color: var(--accentColor);
     color: var(--bgColor);
+}
+
+.link-gap {
+    border: 2px dashed rgba(248, 251, 255, 0.7);
+    border-radius: 10px;
+    margin: 0 10px 10px;
+    min-height: 46px;
 }
 
 .link:focus-visible,
